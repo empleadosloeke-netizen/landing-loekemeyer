@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Loekemeyer | Landing</title>
+
+  <!-- TU CSS BASE -->
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- OVERRIDES SOLO PARA ESTA LANDING -->
+  <link rel="stylesheet" href="./landing.css" />
+</head>
+<body>
+
+  <!-- HEADER (reusa tus clases .header/.logo/.nav/.nav-center/.nav-right) -->
+  <header class="header">
+    <div class="logo">
+      <!-- Reemplazá por tu logo real -->
+      <img class="logo-img" src="https://via.placeholder.com/170x58?text=LOEKEMEYER" alt="Loekemeyer" />
+    </div>
+
+    <nav class="nav">
+      <div class="nav-center">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Productos & Servicios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#empresa">Empresa</a>
+      </div>
+
+      <div class="nav-right">
+        <a id="ctaCliente" href="#contacto">Quiero cotizar</a>
+        <a id="loginBtn" href="#servicios">Ver catálogo</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main id="inicio" class="landing-hero">
+    <div class="landing-hero-overlay"></div>
+
+    <div class="landing-hero-inner">
+      <h1 class="landing-title">Contactanos</h1>
+      <p class="landing-subtitle">Estamos listos para impulsar tu negocio.</p>
+
+      <div class="landing-cards">
+        <!-- CARD 1 -->
+        <article class="landing-card">
+          <div class="landing-icon">
+            <!-- ícono simple -->
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.12.81.3 1.6.54 2.36a2 2 0 0 1-.45 2.11L9 10a16 16 0 0 0 5 5l.81-.09a2 2 0 0 1 2.11.45c.76.24 1.55.42 2.36.54A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+
+          <h3 class="landing-card-title">Ventas</h3>
+          <p class="landing-card-text">Descubrí cómo Loekemeyer puede potenciar tu empresa.</p>
+
+          <a class="landing-card-link" target="_blank" rel="noopener"
+             href="https://wa.me/5490000000000?text=Hola%20Loekemeyer%2C%20quiero%20hablar%20con%20ventas.">
+            Hablar por WhatsApp →
+          </a>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="landing-card">
+          <div class="landing-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+          </div>
+
+          <h3 class="landing-card-title">Soporte</h3>
+          <p class="landing-card-text">Resolvé dudas y consultas rápidamente.</p>
+
+          <a class="landing-card-link" target="_blank" rel="noopener"
+             href="https://wa.me/5490000000000?text=Hola%20Loekemeyer%2C%20necesito%20soporte.">
+            Obtener asistencia →
+          </a>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="landing-card">
+          <div class="landing-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16v16H4z"></path>
+              <path d="M8 8h8"></path>
+              <path d="M8 12h8"></path>
+              <path d="M8 16h5"></path>
+            </svg>
+          </div>
+
+          <h3 class="landing-card-title">Otras consultas</h3>
+          <p class="landing-card-text">Estamos para ayudarte con lo que necesites.</p>
+
+          <a class="landing-card-link" href="mailto:ventas@loekemeyer.com?subject=Consulta%20desde%20Landing">
+            Enviar email →
+          </a>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!-- SECCIÓN SIMPLE EXTRA (placeholder) -->
+  <section id="servicios" class="landing-section">
+    <div class="landing-container">
+      <h2 class="landing-h2">Productos & Servicios</h2>
+      <p class="landing-p">Sección placeholder para links / bloques que vas a completar después.</p>
+
+      <div class="landing-cta-row">
+        <a class="landing-pill" href="#contacto">Ir a contacto</a>
+        <a class="landing-pill outline" href="#empresa">Acerca de Loekemeyer</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="empresa" class="landing-section light">
+    <div class="landing-container">
+      <h2 class="landing-h2">Empresa</h2>
+      <p class="landing-p">Otro bloque placeholder. Ideal para 3 bullets + garantía + cobertura + tiempos.</p>
+    </div>
+  </section>
+
+  <section id="contacto" class="landing-section">
+    <div class="landing-container">
+      <h2 class="landing-h2">Contacto</h2>
+      <p class="landing-p">Acá después podés agregar formulario / mapa / horarios. Por ahora links directos.</p>
+
+      <div class="landing-cta-row">
+        <a class="landing-pill" target="_blank" rel="noopener"
+           href="https://wa.me/5490000000000?text=Hola%20Loekemeyer%2C%20quiero%20contactarles.">
+          WhatsApp
+        </a>
+        <a class="landing-pill outline" href="mailto:ventas@loekemeyer.com">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTÓN LATERAL “Ayuda” -->
+  <button class="landing-help" id="helpBtn" type="button">¿Ayuda? Aquí</button>
+
+  <!-- FOOTER -->
+  <footer class="landing-footer">
+    <div class="landing-footer-inner">
+      <div class="landing-footer-brand">
+        <div class="landing-footer-logo">LOEKEMEYER</div>
+        <div class="landing-footer-small">Promoviendo soluciones simples y duraderas.</div>
+      </div>
+
+      <div class="landing-footer-cols">
+        <div class="landing-footer-col">
+          <div class="landing-footer-title">EMPRESAS</div>
+          <a href="#contacto">Registrá tu empresa</a>
+          <a href="#servicios">Catálogo</a>
+        </div>
+
+        <div class="landing-footer-col">
+          <div class="landing-footer-title">CONTACTO</div>
+          <a target="_blank" rel="noopener"
+             href="https://wa.me/5490000000000?text=Hola%20Loekemeyer%2C%20tengo%20una%20consulta.">WhatsApp</a>
+          <a href="mailto:ventas@loekemeyer.com">ventas@loekemeyer.com</a>
+        </div>
+
+        <div class="landing-footer-col">
+          <div class="landing-footer-title">LEGAL</div>
+          <a href="#">Términos</a>
+          <a href="#">Privacidad</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./landing.js"></script>
+</body>
+</html>
