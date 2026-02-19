@@ -4,9 +4,10 @@
 
 :root{
   --landing-bg: #0f172a;
-  --landing-overlay: rgba(15, 23, 42, .72);
+  --landing-overlay: rgba(0, 0, 0, .60);
   --landing-card: #ffffff;
-  --landing-accent: #2563eb;
+  --landing-accent: #8B1E1E;
+  --landing-accent-hover: #6f1717;
   --landing-muted: #6b7280;
   --landing-border: #e9e9e9;
   --landing-shadow: 0 16px 34px rgba(0,0,0,.18);
@@ -18,10 +19,9 @@
   display: grid;
   align-items: center;
   padding: 36px 40px 60px;
-  background:
-    linear-gradient(180deg, rgba(0,0,0,.20), rgba(0,0,0,.35)),
-    /* reemplazá por tu imagen */
-    url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1800&q=70");
+ background:
+  linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.55)),
+  url("https://images.unsplash.com/photo-1586201375761-83865001e31b?auto=format&fit=crop&w=1800&q=80");
   background-size: cover;
   background-position: center;
 }
@@ -235,6 +235,16 @@
   color:#fff;
   text-decoration: underline;
 }
+
+.landing-card-link:hover{
+  color: var(--landing-accent-hover);
+}
+
+.landing-icon{
+  background: var(--landing-accent);
+  box-shadow: 0 12px 22px rgba(139,30,30,.35);
+}
+
 
 /* Responsive */
 @media (max-width: 980px){
